@@ -38,6 +38,7 @@ namespace fu
 		}
 
 		/*string(const string& s)
+		string(const string& s)
 		{
 			_str = new char[s._capacity + 1];
 			_capacity = s._capacity;
@@ -148,6 +149,7 @@ namespace fu
 		}
 
 		/*string& operator=(const string& s)
+		string& operator=(const string& s)
 		{
 			if (this != &s)
 			{
